@@ -293,6 +293,11 @@ h6 {
   margin-bottom: 0;
 }
 
+.about p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 @keyframes slideInFromRight {
   0% {
     transform: translateX(100%);
