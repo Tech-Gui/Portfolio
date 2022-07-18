@@ -18,6 +18,13 @@ app.get('/About', (req, res) => {
   res.sendFile(index)
 })
 
+// comingsoon endpoint
+app.use(express.static(path.join(__dirname, '/public')))
+app.get('/comingsoon', (req, res) => {
+  const index = path.join(__dirname, 'views', 'comingsoon.html')
+  res.sendFile(index)
+})
+
 app.listen(port, () => {
   console.log('Express server running on port', port)
 })
