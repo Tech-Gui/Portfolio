@@ -332,3 +332,10 @@ h6 {
   /* background: #333;
   padding: 30px; */
 }
+
+#resume {
+  margin-left: auto;
+  border: red 1px;
+
+  background-color: #040b14;
+}
